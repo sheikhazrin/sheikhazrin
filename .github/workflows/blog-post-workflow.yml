@@ -1,38 +1,17 @@
-- name: github-update-readme
-  # You may pin to the exact commit or the version.
-  # uses: theboi/github-update-readme@166a177fb7af473efbb05a06b45fa67a456469e2
-  uses: theboi/github-update-readme@v1.2.1
-  with:
-    # The header of your README.md. Markdown supported.
-    header: # default is 
-    # The subheader of your README.md. Markdown supported.
-    subhead: # optional, default is 
-    # The footer of your README.md. Markdown supported.
-    footer: # optional, default is 
-    # Path of your README.md file.
-    path: # optional, default is README.md
-    # Number of repositories to load.
-    repoCount: # optional, default is 6
-    # Number of repositories to load per row.
-    reposPerRow: # optional, default is 3
-    # Length (in pixels) of each side of the square image.
-    imageSize: # optional, default is 200
-    # Types of event to exclude from the recent activity table. Read more on this repository's README.md.
-    excludeActivity: # optional, default is []
-    # Repositories to exclude from the recent activity table. Read more on this repository's README.md.
-    excludeRepo: # optional, default is []
-    # Customise the README.md file format without forking this repository. Read more on this repository's README.md. Markdown supported.
-    customReadmeFile: # optional, default is ## ${header}
+name: Latest blog post workflow
+on:
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' # Runs every hour, on the hour
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
     feed_list: "https://dev.to/feed/sheikhazrin,http://www.reddit.com/.rss"
 
-${subhead}
-
----
-
-${repoTable}
-
----
-
-${footer}
 
 
