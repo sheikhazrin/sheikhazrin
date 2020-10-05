@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: sheikhazrin/blog-post-workflow@master
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://dev.to/feed/sheikhazrin,http://www.reddit.com/.rss"
+    feed_list: "https://dev.to/feed/sheikhazrin"
+
+
+
