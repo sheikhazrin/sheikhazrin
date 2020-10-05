@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-### Blog posts
+### Dev.to Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Install MySQL database on Laravel Frameworks](https://dev.to/sheikhazrin/install-mysql-database-on-laravel-frameworks-2h85)
 - [Getting Started with Laravel Jetstream](https://dev.to/sheikhazrin/getting-started-with-laravel-jetstream-3676)
