@@ -2,11 +2,9 @@
 
 ### Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [Trump Just Exposed Secret Service to COVID-19 to Do a Drive-By For MAGA Supporters](https://www.reddit.com/r/politics/comments/j586te/trump_just_exposed_secret_service_to_covid19_to/)
-- [A Walter Reed physician speaks out](https://www.reddit.com/r/facepalm/comments/j580qd/a_walter_reed_physician_speaks_out/)
-- [These guys carving a block of stone](https://www.reddit.com/r/BeAmazed/comments/j57rp9/these_guys_carving_a_block_of_stone/)
-- [Living carelessly with special privileges](https://www.reddit.com/r/BlackPeopleTwitter/comments/j57n02/living_carelessly_with_special_privileges/)
-- [Donald Trump did not disclose a positive result from a rapid test for Covid-19 on Thursday](https://www.reddit.com/r/politics/comments/j57eht/donald_trump_did_not_disclose_a_positive_result/)
+- [Install MySQL database on Laravel Frameworks](https://dev.to/sheikhazrin/install-mysql-database-on-laravel-frameworks-2h85)
+- [Getting Started with Laravel Jetstream](https://dev.to/sheikhazrin/getting-started-with-laravel-jetstream-3676)
+- [3 Easy Steps Before Getting Started with Laravel Jetstream](https://dev.to/sheikhazrin/getting-started-laravel-jetstream-1k4e)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
