@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-# Blog posts
+### Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Trump Just Exposed Secret Service to COVID-19 to Do a Drive-By For MAGA Supporters](https://www.reddit.com/r/politics/comments/j586te/trump_just_exposed_secret_service_to_covid19_to/)
 - [A Walter Reed physician speaks out](https://www.reddit.com/r/facepalm/comments/j580qd/a_walter_reed_physician_speaks_out/)
