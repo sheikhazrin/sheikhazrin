@@ -23,11 +23,11 @@ export const CONFIG = {
       logo: 'google-chrome',
       url: 'https://dev.to/sheikhazrin',
     },
-    {
-      name: 'Medium',
-      color: '12100E',
-      url: 'https://medium.com/@sheikhazrin',
-    },
+    // {
+    //   name: 'Medium',
+    //   color: '12100E',
+    //   url: 'https://medium.com/@sheikhazrin',
+    // },
     // {
     //   name: 'Instagram',
     //   color: 'E4405F',
