@@ -1,9 +1,9 @@
 export const CONFIG = {
   social: [
     {
-      name: 'Medium',
-      color: '12100E',
-      url: 'https://medium.com/@sheikhazrin',
+      name: 'LinkedIn',
+      color: '0077B5',
+      url: 'https://www.linkedin.com/in/sheikhazrin',
     },
     {
       name: 'Github',
@@ -16,16 +16,17 @@ export const CONFIG = {
       color: '1DA1F2',
       url: 'https://twitter.com/shazrinjb',
     },
-    {
-      name: 'LinkedIn',
-      color: '0077B5',
-      url: 'https://www.linkedin.com/in/sheikhazrin',
-    },
+    
     {
       name: 'Website',
       color: '4285F4',
       logo: 'google-chrome',
       url: 'https://dev.to/sheikhazrin',
+    },
+    {
+      name: 'Medium',
+      color: '12100E',
+      url: 'https://medium.com/@sheikhazrin',
     },
     // {
     //   name: 'Instagram',

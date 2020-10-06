@@ -1,14 +1,14 @@
-h6
-  | 👋 Oh, hi there!
+h2
+  | 👋 Oh, hi there! Welcome to my GitHub profile!
 
 include templates/about-me.pug
+
+if social && social.length
+  include templates/social.pug
 hr
 
 if badges && badges.length
   include templates/badges.pug
-
-if social && social.length
-  include templates/social.pug
 
 if github && github.enabled
   include templates/github-stats
@@ -22,12 +22,11 @@ hr
 
 p(align='center')
   | This README file is automatically generated every day! The last refresh was on !{refreshDate}.
+if social && social.length
+  include templates/fsocial.pug
   br
   | Do you want an awesome GitHub README as well? Read about it in!{' '}
   a(href='#' target='_blank')
     | COMING SOON
   | .
   
-if social && social.length
-  include templates/social.pug
-
